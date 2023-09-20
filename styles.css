@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Mooli&family=Nanum+Gothic&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(0, 0, 32);
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    position:sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(205, 234, 240);
+    width: 100vw;
+    height:8vh;
+    font-size: 1.5em;
+    font-family: 'Dosis', sans-serif;
+}
+
+.left-nav a {
+    text-decoration: none;
+    margin-left:3vw;
+    color:black;
+
+}
+
+.right-nav > a {
+    
+    text-decoration: none;
+    margin-right:3vw;
+    color:black;
+}
+
+
+#navbar li {
+    list-style-type: none;
+}
+
+#left-nav{
+    display:flex ;
+}
+
+#right-nav{
+    display: flex;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    margin-top:4%;
+    font-family: 'Mooli', sans-serif;;
+    font-size: 2.5em;
+}
+
+.picingredients {
+    display: flex;
+    margin:50px 40px;
+    color:white;
+    align-items: center;
+}
+
+.mainImage {
+    width:40%;
+    height:auto;
+    border-radius: 10%;
+    margin-right:5%;
+}
+
+.description {
+    flex-direction: row;
+    padding:2%;
+    margin: auto 1.5%;
+}
+
+.sentance {
+    margin-top:4%;
+}
+
+.ingredients{
+    margin-left:3%;
+}
+
+.ingredients h2 {
+    margin-bottom: 3%;
+    margin-left:3%;
+    font-family: 'Mooli', sans-serif;
+}
+
+.ingredientList {
+    list-style: disc;
+    margin-left:3%;
+}
+
+.instructions {
+    margin-top:6%;
+    margin-right:3%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.spacer {
+    display: flex;
+    width:40vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.half {
+    width:60vw;
+}
+
+.instructions h2 {
+    margin-bottom:3%;
+    font-family: 'Mooli', sans-serif;
+}
+
+.spacer img {
+    width:15vw;
+    height:15vw;
+    border-radius: 35%;
+}
+
+#middle img {
+    height:7vh;
+    width:auto;
+}
+
+.footer {
+    margin: 4%;
+    text-align: center;
+}
+
+.footer img {
+    width:12vw;
+    height:auto;
+}
+
+.footer p{
+    margin-top: 2%;
+}
+
+.footer a {
+    text-decoration: none;
+    color:lightblue;
+}
+
+ a:hover{
+    color:blueviolet;
+}
+
+#odin{
+   display:block;
+   margin: 5% auto;
+   width:85%;
+   height:auto;
+}
+
+.recipeList{
+    display: flex;
+    margin:10%;
+  
+    justify-content: center;
+    
+}
+
+.smallpic {
+    height:200px;
+    width:200px;
+
+}
+.food {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.food a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Mooli', sans-serif;
+}
+.food a:hover {
+    color:blueviolet;
+}
